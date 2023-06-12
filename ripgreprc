@@ -1,0 +1,6 @@
+--smart-case
+--crlf
+# hide long lines, but at least show part of it
+# --max-columns=80
+--max-columns-preview
+--auto-hybrid-regex

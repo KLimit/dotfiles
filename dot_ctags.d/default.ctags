@@ -1,0 +1,5 @@
+# I want to use human-readable ctags. This could screw up the tagbar vim plugin
+# or whatever it's called.
+--output-format=xref
+	--_xformat=%{line}-%{end},%{kind},%{name},"%{compact}"
+--sort=no

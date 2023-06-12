@@ -1,0 +1,2994 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	HideScrollbars = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	TextIconColor = #ffff00
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = en
+EnableTeXEnhancements = false
+DefaultDisplayMode = single page
+DefaultZoom = fit page
+Shortcuts [
+	[
+		Cmd = CmdGoToPrevPage
+		Key = b
+	]
+	[
+		Cmd = CmdGoToNextPage
+		Key = space
+	]
+	[
+		Cmd = CmdNavigateBack
+		Key = t
+	]
+	[
+		Cmd = CmdNavigateForward
+		Key = Shift + t
+	]
+	[
+		Cmd = CmdZoomFitPageAndSinglePage
+		Key = Shift + z
+	]
+	[
+		Cmd = CmdZoom100
+		Key = z
+	]
+	[
+		Cmd = CmdGoToFirstPage
+		Key = g
+	]
+	[
+		Cmd = CmdGoToLastPage
+		Key = Shift + g
+	]
+	[
+		Cmd = CmdFindNext
+		Key = n
+	]
+	[
+		Cmd = CmdFindPrev
+		Key = Shift + n
+	]
+	[
+		Cmd = CmdToggleBookmarks
+		Key = o
+	]
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #80fff200
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = false
+ShowFavorites = false
+ShowToc = false
+TocDy = 0
+SidebarDx = 455
+ToolbarSize = 18
+TabWidth = 300
+TreeFontSize = 0
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 1
+WindowPos = 2869 1060 982 1051
+UseTabs = false
+UseSysColors = false
+CustomScreenDPI = 0
+
+FileStates [
+	[
+		FilePath = C:\Users\hlimm\Downloads\slyb232.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1580 785 531
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\NCV8501_D-2317493.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1060 982 531
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2\design\Project Outputs\920-111611-001 REV 3_battery_powertrain_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 12
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1060 982 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\scpi-command-reference.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 221
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1060 982 531
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2\design\Project Outputs\890-111613-001 REV 3_battery_powertrain_controller_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 26.1555 424.948
+		PageNo = 1
+		Zoom = 66.67
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\manufacturing_test_board\Generation 1.1\design\Project Outputs\MTB_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\motor\Generation 6.2\design\Project Outputs\920-108080-003 REV 2_motor_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 39
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-daq\programming.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 23
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ltz1000.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 1060 982 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\slyt183.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3589 1840 785 320
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.4\design\Project Outputs\920-112270-001 REV 2_SPDU_HV_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 74.8129 -1
+		PageNo = 2
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\programming-guide.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 57
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1060 982 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\083-093-GROOVED-GASKETS.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3349 1580 785 320
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\9018-01860 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 106
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1580 785 531
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.4\design\Project Outputs\890-111984-001 REV 3_SPDU_HV_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 56.9376 1710.81
+		PageNo = 1
+		Zoom = 300
+		Rotation = 90
+		WindowState = 1
+		WindowPos = -11 20 3862 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.4\design\Project Outputs\890-111984-001 REV 3_SPDU_HV_Staking.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 3862 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.5\design\Project Outputs\890-113067-001 REV 1_SPDU_HV_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -0.1497 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 90
+		WindowState = 1
+		WindowPos = -11 20 3862 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-daq\DAQ970A.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 28
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\B2900B-BL-Series-Precision-Source-Measure-Unit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 949 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 1060 982 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\LC26750.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2869 1580 785 531
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\p45-voida.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 1909 1060 1942 1051
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\New Desktop Environment.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\126_Model14_Descr_Dec31.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\20230042_microplastics_and_micropollutants_in_water_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 949 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\CANAL_API.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 949 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\usb2can_user_guide.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 14
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 3862 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\AWG--American-Wire-Gauge--To-Metric--Sqmm-Millimeters-Squared--Conversion-Table.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1909 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ibmsj2703E.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 760 125 2320 1899
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\GLSL_ES_Specification_3.00.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\documentation_20230109.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Shared drives\Engineering Electrical\PCB\motor\Generation 5.1.1\design\Project Outputs\920-108080-002 REV A_motor_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ltc3780.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 16
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\lm25180.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Shared drives\Engineering Electrical\PCB\mux_hi\Generation 1.0\design\Project Outputs\920-112919-001 REV 1_high_current_mux_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1071 976 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\mux_hv\Generation 1.0\design\Project Outputs\920-112861-001 REV 1_high_voltage_mux_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ni-visa_5-3-2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 47
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\abc\920-106435-001 REV G_ABC_adapter_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 3862 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ad623-3134642.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 16
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 976 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\revfcpu\920-102412-001 REV F_PCU_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 34
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 3864 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\revfcpu\890-103536-001 REV F_PCU_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\sensata-gigavac-gx16-series-open-contactors-datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 1060 1944 1052
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\E-K\Gigavac\sensata-gigavac-GV22-contactor-datasheet_0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 770.979
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\C093542S.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\EoL Outline (scattered) (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 976 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\EoL Outline (scattered).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\tmp\halibut\output.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\picodev\RPi_PiPico_Digital_v10.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2110
+		ShowToc = true
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\picodev\pico-datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ccs243-mason.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1071 976 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\S-Z\Semikron\SKAIHV+\Project.SKAI2HV.PLUS_System_System_Requirement_specifications_-_extract_duplicate_GDO (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 28
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\S-Z\Semikron\SKAI 45 A2 GD12-WDI.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\S-Z\Semikron\30653147 Rev02 SKS 220W B6CI 100 V12 Datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\S-Z\Semikron\mcb.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\S-Z\Semikron\SKAIHV+\SEMIKRON_DataSheet_SKiM459GD12E4_V2_23930120.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\guide_to_authors.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\factsheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-112818-XXX Rev1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\PIPM-LitCode251.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 1060 1944 1052
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\debugger_mpc5500 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 142
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\AN4365.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 14
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\debugger_mpc5500.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2868 1060 984 1052
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\differences_between_standard_and_automotive_debug_cables.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\1Printed-Circuit-Board-PCB-Thermal-Analysis-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\fonts\GidoleFont\Readme+Characters.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -12 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\T32\pdf\app_t32start.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1905 20 1950 2079
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DX-102-10.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 28
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 3870 2079
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\B2900B-BL-Series-Precision-Source-Measure-Unit-Users-Guide.pdf
+		Favorites [
+			[
+				Name = toc
+				PageNo = 17
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 116
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 3862 2079
+		ShowToc = true
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 190
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\9018-04103.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 1950 2079
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Specifications\SAE\J1772_201710.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 1950 2079
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\vc520pro2-datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 1950 2122
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MBR0530T1-D.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\esda6v1u1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2110
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\TMarketMenu (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1071 976 533
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\TMarketMenu.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 976 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\dectable.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\starkiller.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\se.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Packing Letter Codes used in Orderable Part Number.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\app_python.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 10
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 1071 1934 1058
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\stw78n65m5.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 20 2394 2109
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\directory.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 12
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 1071 974 1058
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\gdrive-pcb\Smart PDU HV\Kicad HV PCB\HV PCB Schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2148
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\PCU\f-to-g.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 35
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2148
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\920-xxxxxx-001 REV 1_high_voltage_mux_Schematic (3).PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1090 976 543
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\920-xxxxxx-001 REV 1_high_voltage_mux_Schematic (2).PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\interviews\muxpuzzle.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 1950 2155
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\packb_charx_t1hbi__109674_ia_01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 20 1934 2147
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\10068560_449826271412037.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 13
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 20 1934 1077
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\interviews\muxpuzzle.drawio.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 20 1934 1077
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Jamal Halawah Resume.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 1950 2155
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\gdrive-pcb\PCU\Generation 5.2.2\design\Project Outputs\920-102412-001 REV G_PCU_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2873 1625 974 542
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\gdrive-pcb\PCU\Generation 5.2\design\Project Outputs\920-102412-001 REV E_PCU_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 20 1934 2147
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\motiverter (1).PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1090 976 1078
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\motiverter.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 20 3854 2147
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\gdrive-pcb\battery_powertrain_controller\Generation 1.1\design\Project Outputs\920-111611-001 REV 2_battery_powertrain_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 35.7752 58.7252
+		PageNo = 31
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2865 1090 990 1085
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\L-R\ONE\ONE ICD V1.81 Motiv.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 30
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1905 20 1950 1085
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\picodev\raspberry-pi-pico-python-sdk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 14
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 1078
+		ShowToc = true
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-111951-001 Rev3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Vendors\A-D\BMW Batteries\170804_HVS_SE07_Technical_Product_Description_Motive.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 36
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Next Gen Powertrain - Smart PDU (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1090 976 1078
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Next Gen Powertrain - Smart PDU.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1625 976 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ACFrOgDg39OyqIW-ydbPE95IJZWjEaYa56tKJTVylx6bF7uh6NTl6lFNHy4CGgT5HtXe88Z7AhjktaS2d8ZyLJLAZCpT_m_koCeaZaOm-6_IaxEEqeXhDgRlxYaND44=.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1625 569 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - Newest Rev3 Top Level Electrical Schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3592 1892 569 320
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - Final HV layouts.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1892 569 320
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - Green Gen 6 F59 prototype HV junction box proposal (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1625 569 320
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - Green Gen 6 F59 prototype HV junction box proposal (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1625 569 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - Green Gen 6 F59 prototype HV junction box proposal.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1625 569 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Gen 6 Vehicle Schematic - 12V Layout.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1625 569 320
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\getting-started-with-pico.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2148
+		ShowToc = true
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Touchscreen_Mobile_Connector_Owners_Manual-au.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MCP23017-Data-Sheet-DS20001952.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 15
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2027 20 1821 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\rp2040-datasheet (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 10
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\friday_prelims_results.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 12
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SD_2023_Information.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\friday_prelims_heat_sheets.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\920-xxxxxx-001 REV 1_high_voltage_mux_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\74HC_HCT4067.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 3856 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Ben_Lehman_Resume_January_2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1905 20 1950 2155
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Benjamin Lehman - Peer Panel Interview 2023-02-16.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1905 20 1950 2155
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\VC520-Pro2-Manual-EN-v1.03.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 42
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\8080ff00-f927-490a-a06a-6398ebcce530.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\LVC-2001_manual_v1.2 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 20 1936 2148
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Micro-Python-Windows-setup.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 14
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1090 1936 1078
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MC14538B-D.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2641 1625 1206 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\tps3840-q1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1451 1090 2397 1078
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\pcu\pcu-5.1-schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 13
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -8 1090 3856 1078
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\pico-datasheet (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1090 1936 1078
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\jtagulator_bom.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1090 976 1078
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Shared drives\Engineering Electrical\PCB\motor\Generation 6.1\design\Project Outputs\920-108080-003 REV 1_motor_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1090 976 543
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\schematics\bpcu\bpcu-schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -15 20 3862 2155
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.0\battery_powertrain_controller_1.0_schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 34
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 38 1294 2129
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ACFrOgBKxThbqyYr2m-JlHGY9bnlAEND2dqJONOFG_qCQ3DoPfFQmEspSyV2CX3DjafPQKvzrY_wmcNUGNlkzCpzx4q1BCdjWVcrC1ShBa-PhPGmR7TPOT2jQ6ECjQk=.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3352 1625 496 320
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\920-xxxxxx-001 REV 1_high_voltage_mux_Schematic (1).PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1298 38 2548 2129
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Navjyot Mulgir - Peer Panel Interview 2023-02-06.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 38 1294 2129
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\raspberry-pi-pico-c-sdk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2553 38 1294 2129
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\b2900b-bl-precision-source-measure-unit-smu.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2872 1071 976 533
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\CAN.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1912 1071 1936 1059
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\installation (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 25
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 20 1934 1058
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\installation (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1913 20 1934 1058
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\B2900B-B2900BL-Series-Precision-Source-Measure-Unit (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1905 1052 1950 1047
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\keysight-smu\B2900B-B2900BL-Series-Precision-Source-Measure-Unit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1908 20 1944 2092
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\hlimm\AppData\Local\Temp\Temp1_pcan-basic (1).zip\PCAN-Parameter_Documentation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 44
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -11 20 1942 2091
+		ShowToc = false
+		SidebarDx = 455
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 649
+
+# Settings below are not recognized by the current version

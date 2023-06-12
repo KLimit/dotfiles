@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "final_space": true,
+  "transient_prompt": {
+    "foreground": "lightRed",
+    "template": "{{ now | date \"15:04\" }} > "
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "darkGray",
+          "template": " ---"
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "plain",
+          "foreground": "cyan",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
+          "properties": {
+            "wsl": "",
+            "wsl_separator": ""
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "red",
+          "template": " \uf0e7 "
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "template": "{{ if .SSHSession }}\uf817 {{ end }}<cyan>{{ .UserName }}</> <darkGray>@</> <green>{{ .HostName }}</><darkGray>: </>",
+          "properties": {
+            "default_user_name": "hlimm",
+            "display_default": false
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "white",
+          "template": " {{ path .Path .Location }} ",
+          "properties": {
+            "mixed_threshold": 10,
+            "style": "mixed"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "lightYellow"
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "red",
+          "template": " C:{{ if gt .Code 0 }}\uf00d {{ .Code }}{{ else }}\uf42e{{ end }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "spotify",
+          "style": "plain",
+          "foreground": "lightGreen",
+          "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }} ",
+          "properties": {
+            "playing_icon": ""
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "darkGray",
+          "template": "[{{ .CurrentDate | date .Format }}]",
+          "properties": {
+            "time_format": "03:04:05 PM"
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "rprompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "darkGray",
+          "template": "({{ .FormattedMs }})   ",
+          "properties": {
+            "style": "galveston"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "lightRed",
+          "template": ">"
+        }
+      ]
+    }
+  ]
+}
