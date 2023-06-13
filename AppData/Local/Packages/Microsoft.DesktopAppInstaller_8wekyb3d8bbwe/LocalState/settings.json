@@ -1,0 +1,18 @@
+{
+    "$schema": "https://aka.ms/winget-settings.schema.json",
+
+    // For documentation on these settings, see: https://aka.ms/winget-settings
+    // "source": {
+    //    "autoUpdateIntervalInMinutes": 5
+    // },
+    "installBehavior": {
+      "portablePackageUserRoot": "C:/users/hlimm/portables",
+      "portablePackageMachineRoot": "C:/program files (portable)/"
+    },
+    "preferences": {
+      "scope": "machine"
+    },
+    "telemetry": {
+      "disable": true
+    }
+}
