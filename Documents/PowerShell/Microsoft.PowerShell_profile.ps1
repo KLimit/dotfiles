@@ -1,4 +1,3 @@
-Import-Module posh-git
 # Import-Module Terminal-Icons
 import-module get-choice
 
@@ -26,8 +25,8 @@ function Invoke-Starship-TransientFunction {
 	&starship module character
 }
 # Invoke-expression (&starship init powershell)
-Invoke-Expression (& 'C:\Program Files\starship\bin\starship.exe' init powershell --print-full-init | Out-String)
-Enable-TransientPrompt
+Invoke-Expression (& 'starship.exe' init powershell --print-full-init | Out-String)
+# Enable-TransientPrompt
 
 # init zoxide
 # (If you choose to use the dump, know that zoxide env variables are used 
