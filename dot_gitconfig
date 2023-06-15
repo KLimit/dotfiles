@@ -2,10 +2,11 @@
 	name = Henry Limm
 	email = henry.limm@motivps.com
 [core]
-	autocrlf = true
+	autocrlf = input
 	editor = nvim -c startinsert
 	excludesFile = C:\\Users\\hlimm\\.gitignore
 	attributesfile = ~/.gitattributes
+	eol = lf
 [diff]
 	tool = difft --display=inline
 [difftool]
@@ -20,7 +21,7 @@
 	fontdiff = -family \"Delugia Nerd Font\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
 [merge]
 	conflictstyle = "merge"
-	tool = vimdiff2
+	tool = nvimdiff2
 [help]
 	format = "html"
 [credential]
