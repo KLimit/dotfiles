@@ -1,0 +1,6 @@
+# general options
+options.dir_hidden = True
+options.quitguard = True
+# json options
+options.json_indent = 2
+options.json_sort_keys = False
