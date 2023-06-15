@@ -1,28 +1,24 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
             "command": "togglePaneZoom"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
+            "command": "unbound",
             "keys": "ctrl+c"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "moveFocus",
                 "direction": "down"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "right"
@@ -32,25 +28,25 @@
             "command": "paste"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "moveFocus",
                 "direction": "up"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "resizePane",
                 "direction": "left"
             }
         },
         {
-            "command": "find",
+            "command": "unbound",
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "resizePane",
                 "direction": "right"
@@ -197,7 +193,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -205,35 +201,35 @@
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "down"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "resizePane",
                 "direction": "up"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "moveFocus",
                 "direction": "previous"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "resizePane",
                 "direction": "down"
             }
         },
         {
-            "command": 
+            "command":
             {
                 "action": "moveFocus",
                 "direction": "left"
@@ -247,7 +243,7 @@
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "moveFocus",
                 "direction": "right"
@@ -262,13 +258,13 @@
     "experimental.rendering.software": false,
     "initialCols": 120,
     "initialRows": 30,
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "altGrAliasing": false,
             "antialiasingMode": "cleartype",
-            "bellStyle": 
+            "bellStyle":
             [
                 "audible",
                 "window"
@@ -276,7 +272,7 @@
             "colorScheme": "eva01",
             "cursorShape": "emptyBox",
             "experimental.retroTerminalEffect": false,
-            "font": 
+            "font":
             {
                 "face": "Fairfax Hax HD",
                 "size": 12.0,
@@ -289,7 +285,7 @@
             "useAcrylic": false,
             "useAtlasEngine": false
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "pwsh.exe -nologo",
@@ -305,28 +301,11 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "arch.exe",
-                "guid": "{57456b5b-6f8a-4212-b190-fab4c9cda5b5}",
-                "hidden": false,
-                "name": "Arch"
-            },
-            {
                 "guid": "{795ea680-f6c9-5cfa-9cc9-bbbcf1f7c49b}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
-            {
-                "altGrAliasing": true,
-                "closeOnExit": "automatic",
-                "commandline": "fish.exe",
-                "guid": "{6fbaa463-407a-4688-be50-0e343b1724bf}",
-                "hidden": false,
-                "historySize": 9001,
-                "icon": "C:\\Users\\hlimm\\Pictures\\fishshell.png",
-                "name": "fish",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%"
             {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
@@ -335,7 +314,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
@@ -847,17 +826,17 @@
     "showTabsInTitlebar": false,
     "startOnUserLogin": true,
     "tabSwitcherMode": "inOrder",
-    "themes": 
+    "themes":
     [
         {
             "name": "legacyDark",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "dark",
                 "useMica": false
@@ -865,13 +844,13 @@
         },
         {
             "name": "legacyLight",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "light",
                 "useMica": false
@@ -879,13 +858,13 @@
         },
         {
             "name": "legacySystem",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "system",
                 "useMica": false
