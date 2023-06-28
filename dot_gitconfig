@@ -36,6 +36,7 @@
 [format]
 	pretty = hloneline
 [alias]
+	detail = show --pretty=fuller
 	last = show -1 --pretty=fuller HEAD
 	origin = log --diff-filter=A --follow -1
 	origin-date = origin --format=%aD
