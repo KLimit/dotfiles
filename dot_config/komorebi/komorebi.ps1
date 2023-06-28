@@ -1,7 +1,17 @@
-if (!(Get-Process whkd -ErrorAction SilentlyContinue))
-{
-	write-host "Starting whkd"
-    Start-Process whkd -WindowStyle hidden
+function notify{
+	param($message)
+	write-host "$message"
+	if (get-command toastify -erroraction silentlycontinue) {
+		toastify send --app-name "komorebi" "$message"
+	}
+}
+
+foreach ($process in 'whkd', 'yasb') {
+	if (!(get-process "$process" -erroraction silentlycontinue)) {
+		$message = "Starting $process"
+		notify $message
+		start-process "$process" -windowstyle hidden
+	}
 }
 
 write-host "sourcing generated overrides"
@@ -14,7 +24,7 @@ komorebic window-hiding-behaviour cloak
 # Set cross-monitor move behaviour to insert instead of swap
 komorebic cross-monitor-move-behaviour insert
 # Enable hot reloading of changes to this file
-komorebic watch-configuration enable
+komorebic watch-configuration disable
 
 # workspaces and monitors are zero-indexed, so make sure to account for that
 $num_workspaces = 10
@@ -22,8 +32,10 @@ $num_monitors = 1
 
 # apply some defaults for all workspaces for all monitors
 foreach ($monitor in 0..($num_monitors-1)) {
-	komorebic ensure-workspaces $monitor $num_monitors
+	notify "Configuring workspaces for monitor $monitor"
+	komorebic ensure-workspaces $monitor $num_workspaces
 	foreach ($space in 0..($num_workspaces - 1)) {
+		# notify "Configuring workspace $space"
 		# Assign layouts to workspaces, possible values: bsp, columns, rows,
 		# vertical-stack, horizontal-stack, ultrawide-vertical-stack
 		komorebic workspace-layout $monitor $space bsp
