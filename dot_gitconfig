@@ -8,13 +8,13 @@
 	attributesfile = ~/.gitattributes
 	eol = lf
 [diff]
-	tool = difft --display=inline
+	tool = difftastic
 [difftool]
 	prompt = false
 [difftool "difftastic"]
 	cmd = difft "$LOCAL" "$REMOTE"
 [difftool "diffsitter"]
-	cmd = diffsitter "$LOCAL" "$REMOTE"
+	cmd = diffsitter --color=on "$LOCAL" "$REMOTE"
 [pager]
 	difftool = true
 [gui]
