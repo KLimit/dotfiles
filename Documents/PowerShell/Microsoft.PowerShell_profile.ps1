@@ -147,7 +147,8 @@ function set-env {
 	}
 }
 function start-pythonvenv {
-	$found = (fd -eps1 activate)
+	$venvdir = (get-item *venv*)
+	$found = (fd -eps1 activate $venvdir)
 	if ($found.gettype().name -eq 'String') {
 		. $found
 	} else {
