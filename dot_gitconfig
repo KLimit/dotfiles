@@ -29,9 +29,10 @@
 [commit]
 	verbose = true
 [pretty]
-	hloneline = format:%C(auto)%h  %C(cyan)%>(11)%cd  %C(auto)%<|(120,trunc)%s %D
+	hloneline = format:%C(auto)%h %C(magenta)%cd %C(blue)%>(10,trunc)%aL %C(auto)%<|(80,trunc)%s%+D
 [log]
-	date = format:%Y %b %d  %T
+	date = format:%y%m%d %R
+	decorate = short
 [format]
 	pretty = hloneline
 [alias]
