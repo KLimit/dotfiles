@@ -67,7 +67,7 @@ function rustapps {
 function goapps {
 	ls -l -rt --no-group "$home/go/bin/*.exe"
 }
-function canterm {python -m motiv_python_utils.device_interface.can.frontend.canterminal}
+function canterm {py -2 -m motiv_python_utils.device_interface.can.frontend.canterminal}
 function cflashgui {python -m motiv_python_utils.device_interface.can.can_flash_gui}
 function mygenact {cls && genact -m botnet -m download -m mkinitcpio -m memdump -m weblog -m ansible -m composer -s"0.5"}
 function git-graph {
