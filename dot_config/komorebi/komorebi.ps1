@@ -6,15 +6,7 @@ function notify{
 	}
 }
 
-foreach ($process in 'whkd', 'yasb') {
-	if (!(get-process "$process" -erroraction silentlycontinue)) {
-		$message = "Starting $process"
-		notify $message
-		start-process "$process" -windowstyle hidden
-	}
-}
-
-write-host "sourcing generated overrides"
+notify "sourcing generated overrides"
 . $PSScriptRoot\komorebi.generated.ps1
 
 # Send the ALT key whenever changing focus to force focus changes
@@ -43,6 +35,8 @@ foreach ($monitor in 0..($num_monitors-1)) {
 		komorebic workspace-padding $monitor $space 0
 		# Set the gaps between the containers for a workspace
 		komorebic container-padding $monitor $space 0
+		# komorebic workspace-layout-rule $monitor $space 1 ultrawide-vertical-stack
+		# komorebic workspace-layout-rule $monitor $space 2 bsp
 	}
 }
 
@@ -59,3 +53,11 @@ komorebic invisible-borders 7 0 14 7
 # komorebic active-window-border enable
 
 komorebic complete-configuration
+
+foreach ($process in 'whkd', 'yasb') {
+	if (!(get-process "$process" -erroraction silentlycontinue)) {
+		$message = "Starting $process"
+		notify $message
+		start-process "$process" -windowstyle hidden
+	}
+}

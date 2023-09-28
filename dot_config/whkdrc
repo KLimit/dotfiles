@@ -4,7 +4,7 @@
 # alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
 alt + o                 : taskkill /f /im whkd.exe && Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
 alt + shift + o         : komorebic reload-configuration
-alt + shift + oem_2 : notepad $ENV:USERPROFILE/.config/whkdrc
+alt + shift + oem_2 : wt less $ENV:USERPROFILE/.config/whkdrc
 
 # App shortcuts - these require shell to be pwsh / powershell
 # The apps will be focused if open, or launched if not open
@@ -55,6 +55,8 @@ alt + shift + f         : komorebic toggle-monocle
 # Window manager options
 alt + shift + r         : komorebic retile
 alt + p                 : komorebic toggle-pause
+alt + m : komorebic manage
+alt + shift + m : komorebic unmanage
 
 # Layouts
 alt + x                 : komorebic flip-layout horizontal

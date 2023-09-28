@@ -454,16 +454,16 @@ widgets:
       hide_if_offline: false
       label: "{icon}"
       layout_icons:
-        bsp: "[\\\\]"
-        columns: "[||]"
-        rows: "[==]"
-        vertical_stack: "[V]="
-        horizontal_stack: "[H]="
-        ultrawide_vertical_stack: "||="
-        monocle: "[M]"
-        maximised: "[X]"
-        floating: "><>"
-        paused: "[P]"
+        bsp: "bsp"
+        columns: "columns"
+        rows: "rows"
+        vertical_stack: "vertical_stack"
+        horizontal_stack: "horizontal_stack"
+        ultrawide_vertical_stack: "ultrawide_vertical_stack"
+        monocle: "monocle"
+        maximised: "maximised"
+        floating: "floating"
+        paused: "paused"
       callbacks:
         on_left: 'next_layout'
         on_middle: 'toggle_monocle'
