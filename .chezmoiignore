@@ -1,0 +1,10 @@
+{{- if ne .chezmoi.os "windows"}}
+AppData/*
+Documents/PowerShell/*
+poshprompt.omp.json
+.config/komorebi/*
+.config/whkdrc
+.config/workspace*
+.wslconfig
+.yasb/*
+{{- end }}
