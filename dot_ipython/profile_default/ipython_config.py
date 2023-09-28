@@ -8,6 +8,8 @@ except:
     pass
 # Configuration file for ipython.
 
+c = get_config()
+
 #------------------------------------------------------------------------------
 # InteractiveShellApp(Configurable) configuration
 #------------------------------------------------------------------------------
@@ -451,7 +453,7 @@ c.InteractiveShellApp.hide_initial_ns = False
 # c.InteractiveShell.colors = 'Neutral'
 
 #  Default: False
-# c.InteractiveShell.debug = False
+c.InteractiveShell.debug = False
 
 ## Don't call post-execute functions that have failed in the past.
 #  Default: False
@@ -566,8 +568,8 @@ if not PYTHON2:
 
 ## Autoformatter to reformat Terminal code. Can be `'black'`, `'yapf'` or `None`
 #  Default: None
-if not PYTHON2:
-    c.TerminalInteractiveShell.autoformatter = 'black'
+# if not PYTHON2:
+#     c.TerminalInteractiveShell.autoformatter = 'black'
 
 ## 
 #  See also: InteractiveShell.autoindent
@@ -610,7 +612,7 @@ if not PYTHON2:
 # c.TerminalInteractiveShell.confirm_exit = True
 
 #  See also: InteractiveShell.debug
-# c.TerminalInteractiveShell.debug = False
+c.TerminalInteractiveShell.debug = False
 
 ## File in which to store and read history
 #  Default: '~/.pdbhistory'
@@ -1029,7 +1031,7 @@ c.TerminalInteractiveShell.editing_mode = 'emacs'
 ## Enable debug for the Completer. Mostly print extra information for
 #  experimental jedi integration.
 #  Default: False
-# c.Completer.debug = False
+c.Completer.debug = False
 
 ## Activate greedy completion
 #          PENDING DEPRECATION. this is now mostly taken care of with Jedi.
@@ -1064,7 +1066,7 @@ c.TerminalInteractiveShell.editing_mode = 'emacs'
 ## Enable debug for the Completer. Mostly print extra information for
 #  experimental jedi integration.
 #  See also: Completer.debug
-# c.IPCompleter.debug = False
+c.IPCompleter.debug = False
 
 ## Activate greedy completion
 #  See also: Completer.greedy
