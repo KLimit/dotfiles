@@ -49,17 +49,14 @@
 	isaidcommit = i-said-commit
 	unstage = restore --staged
 	statuss = sstatus
+	branches = branch -l
+	mergetry = checkout -b mergetry
+	diffstat = diff --stat
 [branch]
 	sort = -committerdate
 [color "diff"]
 	old = red normal
 	new = green normal bold
-[oldpager]
-	diff = delta
-	blame = delta
-	log = delta
-	reflog = delta
-	show = delta
 [interactive]
 	diffFilter = delta --color-only
 [mergetool]
@@ -95,6 +92,7 @@
 	defaultBranch = main
 [safe]
 	directory = %(prefix)///sombrero/~it_shared/~Scripts
+	directory = %(prefix)///factory20-pc/hw-test-suite/
 [status]
 	submodulesummary = false
 	showUntrackedFiles = normal
