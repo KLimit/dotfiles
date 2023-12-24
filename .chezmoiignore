@@ -7,5 +7,8 @@ poshprompt.omp.json
 .config/workspacer
 .wslconfig
 .yasb/*
+{{- else }}
+.config/bat
+.configb/bottom
 {{- end }}
 LICENSE
