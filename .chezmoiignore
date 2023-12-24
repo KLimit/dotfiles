@@ -4,7 +4,7 @@ Documents/PowerShell/*
 poshprompt.omp.json
 .config/komorebi/*
 .config/whkdrc
-.config/workspace*
+.config/workspacer
 .wslconfig
 .yasb/*
 {{- end }}
