@@ -1,6 +1,6 @@
 {{- if ne .chezmoi.os "windows"}}
-AppData/*
-Documents/PowerShell/*
+AppData
+Documents
 poshprompt.omp.json
 .config/komorebi/*
 .config/whkdrc
