@@ -8,3 +8,4 @@ poshprompt.omp.json
 .wslconfig
 .yasb/*
 {{- end }}
+LICENSE
