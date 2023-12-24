@@ -1,6 +1,10 @@
 [user]
 	name = Henry Limm
+{{- if regexFind "HLIMM.*LTP" .chezmoi.hostname }}
 	email = henry.limm@motivps.com
+{{- else }}
+	email = hlimm@hmc.edu
+{{- end }}
 [core]
 	autocrlf = input
 	editor = nvim -c startinsert
