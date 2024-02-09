@@ -1,0 +1,14 @@
+{{- if ne .chezmoi.os "windows"}}
+AppData
+Documents
+poshprompt.omp.json
+.config/komorebi/*
+.config/whkdrc
+.config/workspacer
+.wslconfig
+.yasb/*
+{{- else }}
+.config/bat
+.configb/bottom
+{{- end }}
+LICENSE
