@@ -4,3 +4,4 @@
 # --max-columns=80
 --max-columns-preview
 --auto-hybrid-regex
+--glob-case-insensitive
