@@ -54,18 +54,23 @@ Set-Alias -Name which -Value 'where.exe'
 set-alias -name vd -value visidata
 set-alias -name sponge -value rw
 set-alias -name mkdir -value 'mkdir.exe'
-set-alias -name wc -value 'cw.exe'
 set-alias -name bat -value 'less.exe'
 if (test-path Alias:sl) {Remove-item Alias:sl -force}
 if (test-path Alias:ls) {Remove-item Alias:ls -force}
 function ls {
 	ls.exe --color=auto --group-directories-first --width=80 $args
 }
+# find a better way to do this
+if (where.exe "eza") {
+	function ls {
+		eza.exe --width=80 --group-directories-first --git $args
+	}
+}
 function rustapps {
-	ls -l -rt --no-group "$home/.cargo/bin/*.exe"
+	ls.exe -l -rt --no-group "$home/.cargo/bin/*.exe"
 }
 function goapps {
-	ls -l -rt --no-group "$home/go/bin/*.exe"
+	ls.exe -l -rt --no-group "$home/go/bin/*.exe"
 }
 function canterm {py -2 -m motiv_python_utils.device_interface.can.frontend.canterminal}
 function cflashgui {python -m motiv_python_utils.device_interface.can.can_flash_gui}
