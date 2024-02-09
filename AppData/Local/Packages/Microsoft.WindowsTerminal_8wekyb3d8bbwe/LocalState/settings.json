@@ -1,56 +1,25 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "togglePaneZoom"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            }
         },
         {
             "command": "unbound",
             "keys": "ctrl+c"
         },
         {
-            "command":
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            }
-        },
-        {
-            "command":
-            {
-                "action": "splitPane",
-                "split": "right"
-            }
-        },
-        {
-            "command": "paste"
-        },
-        {
-            "command":
-            {
-                "action": "moveFocus",
-                "direction": "up"
-            }
-        },
-        {
-            "command":
-            {
-                "action": "resizePane",
-                "direction": "left"
-            }
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+f"
-        },
-        {
-            "command":
-            {
-                "action": "resizePane",
-                "direction": "right"
-            }
         },
         {
             "command": "unbound",
@@ -193,7 +162,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -201,35 +170,66 @@
             }
         },
         {
-            "command":
+            "command": 
             {
-                "action": "splitPane",
-                "split": "down"
+                "action": "resizePane",
+                "direction": "left"
             }
         },
         {
-            "command":
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            }
+        },
+        {
+            "command": "paste"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            }
+        },
+        {
+            "command": 
             {
                 "action": "resizePane",
                 "direction": "up"
             }
         },
         {
-            "command":
+            "command": 
             {
                 "action": "moveFocus",
                 "direction": "previous"
             }
         },
         {
-            "command":
+            "command": 
             {
                 "action": "resizePane",
                 "direction": "down"
             }
         },
         {
-            "command":
+            "command": 
             {
                 "action": "moveFocus",
                 "direction": "left"
@@ -243,7 +243,7 @@
             "keys": "ctrl+shift+w"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "moveFocus",
                 "direction": "right"
@@ -256,26 +256,32 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "experimental.rendering.forceFullRepaint": false,
     "experimental.rendering.software": false,
-    "initialCols": 120,
-    "initialRows": 30,
-    "profiles":
+    "initialCols": 160,
+    "initialRows": 45,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "altGrAliasing": false,
             "antialiasingMode": "cleartype",
-            "bellStyle":
+            "bellStyle": 
             [
                 "audible",
                 "window"
             ],
-            "colorScheme": "eva01",
+            "colorScheme": "citruszest-dark",
             "cursorShape": "emptyBox",
             "experimental.retroTerminalEffect": false,
-            "font":
+            "font": 
             {
                 "face": "Fairfax Hax HD",
-                "size": 12.0,
+                "size": 9.0,
                 "weight": "normal"
             },
             "intenseTextStyle": "all",
@@ -285,7 +291,7 @@
             "useAcrylic": false,
             "useAtlasEngine": false
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "pwsh.exe -nologo",
@@ -301,12 +307,6 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{795ea680-f6c9-5cfa-9cc9-bbbcf1f7c49b}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
                 "name": "Debian",
@@ -314,7 +314,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
@@ -821,54 +821,82 @@
             "selectionBackground": "#B5B4C9",
             "white": "#B5B4C9",
             "yellow": "#AB924C"
+        },
+        {
+            "name" : "Lighthaus",
+            "cursorColor": "#FFFF00",
+            "selectionBackground": "#090B26",
+            "selectionForeground": "#FF4D00",
+            "background" : "#18191E",
+            "foreground" : "#FFEE79",
+            "black" : "#18191E",
+            "blue" : "#1D918B",
+            "cyan" : "#00BFA3",
+            "green" : "#44B273",
+            "purple" : "#D16BB7",
+            "red" : "#FC2929",
+            "white" : "#CCCCCC",
+            "yellow" : "#E25600",
+            "brightBlack" : "#8E8D8D",
+            "brightBlue" : "#47A8A1",
+            "brightCyan" : "#5AD1AA",
+            "brightGreen" : "#50C16E",
+            "brightPurple" : "#D68EB2",
+            "brightRed" : "#FF5050",
+            "brightWhite" : "#FFFADE",
+            "brightYellow" : "#ED722E"
+        },
+        {
+            "name": "citruszest",
+            "background": "#121212",
+            "foreground": "#BFBFBF",
+            "cursorColor": "#666666",
+            "black": "#232323",
+            "red": "#FF5454",
+            "green": "#00CC7A",
+            "yellow": "#FFD700",
+            "blue": "#FF7431",
+            "purple": "#00BFFF",
+            "cyan": "#48D1CC",
+            "white": "#BFBFBF",
+            "brightBlack": "#767C77",
+            "brightRed": "#FF1A75",
+            "brightGreen": "#1AFFA3",
+            "brightYellow": "#FFFF00",
+            "brightBlue": "#FFAA54",
+            "brightPurple": "#28C9FF",
+            "brightCyan": "#09FFF2",
+            "brightWhite": "#F9F9F9",
+            "selectionBackground": "#404040",
+            "selectionForeground": "#BFBFBF"
+        },
+        {
+            "name": "citruszest-dark",
+            "background": "#000000",
+            "foreground": "#BFBFBF",
+            "cursorColor": "#666666",
+            "black": "#232323",
+            "red": "#FF5454",
+            "green": "#00CC7A",
+            "yellow": "#FFD700",
+            "blue": "#FF7431",
+            "purple": "#00BFFF",
+            "cyan": "#48D1CC",
+            "white": "#BFBFBF",
+            "brightBlack": "#767C77",
+            "brightRed": "#FF1A75",
+            "brightGreen": "#1AFFA3",
+            "brightYellow": "#FFFF00",
+            "brightBlue": "#FFAA54",
+            "brightPurple": "#28C9FF",
+            "brightCyan": "#09FFF2",
+            "brightWhite": "#F9F9F9",
+            "selectionBackground": "#404040",
+            "selectionForeground": "#BFBFBF"
         }
     ],
     "showTabsInTitlebar": false,
     "startOnUserLogin": true,
     "tabSwitcherMode": "inOrder",
-    "themes":
-    [
-        {
-            "name": "legacyDark",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }
