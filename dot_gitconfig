@@ -29,7 +29,7 @@
 [commit]
 	verbose = true
 [pretty]
-	hloneline = format:%C(auto)%h %C(magenta)%cd %C(blue)%>(10,trunc)%aL %C(auto)%<|(80,trunc)%s%+D
+	hloneline = tformat:%C(auto)%h %C(magenta)%cd %C(blue)%>(10,trunc)%aL %C(auto)%<|(80,trunc)%s%+D
 [log]
 	date = format:%y%m%d %R
 	decorate = short
@@ -52,6 +52,7 @@
 	branches = branch -l
 	mergetry = checkout -b mergetry
 	diffstat = diff --stat
+	addp = add -p
 [branch]
 	sort = -committerdate
 [color "diff"]
@@ -98,3 +99,6 @@
 	showUntrackedFiles = normal
 [column]
 	ui = never
+[push]
+	default = simple
+	autoSetupRemote = True
