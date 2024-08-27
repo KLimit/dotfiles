@@ -1,7 +1,7 @@
 # Import-Module Terminal-Icons
 import-module posh-git
 
-import-module get-choice
+# import-module get-choice
 
 $PSDefaultParameterValues['*:Encoding'] = "UTF8"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -82,29 +82,37 @@ function tv {
 	head $args | csview
 }
 function append-userpath {
-	param($dir, [switch]$tmp)
+	param($dir, [switch]$tmp, [switch]$prepend)
 	if ($dir -eq $null) {
 		$dir = get-location
 	}
 	$dir = (get-item $dir).fullname
 	$temporarily = if ($tmp) {" (for this session)"} else {""}
-	$query = "append $dir to the user PATH$($temporarily)?"
-	if (-not (& get-confirmation("append-userpath", $query))) {
+	$verb = if (-not $prepend) {"append"} else {"prepend"}
+	$query = "$verb $dir to the user PATH$($temporarily)?"
+	get-confirmation "append-userpath" "$query"
+	if (-not $?) {
 		return
+	}
+	function joinpaths {
+		param($existing, $toadd)
+		if ($prepend) { return "$toadd;$existing"}
+		else { return "$existing;$toadd" }
 	}
 	if (-not $tmp){
 		$existingpath = [Environment]::GetEnvironmentVariable(
 			"Path",
 			[EnvironmentVariableTarget]::user
 		)
+		$newpath = joinpaths -existing $existingpath -toadd $dir
 		[Environment]::SetEnvironmentVariable(
 			"Path",
-			"$existingpath;$dir",
+			"$newpath",
 			[EnvironmentVariableTarget]::user
 		)
 	}
 	# also add to current scope so that you don't have to restart the shell
-	$env:path += ";$dir"
+	$env:path = joinpaths -existing $env:path -toadd $dir
 }
 function add-userenv {
 	param($key, $item)
@@ -126,7 +134,8 @@ function get-lastdownload {
 function overhere {
 	$tomove = (get-lastdownload)
 	$question = "Move $tomove into current directory?"
-	if (get-confirmation('overhere', "$question")) {
+	get-confirmation 'overhere' "$question"
+	if ($?) {
 		write-host "moving $tomove"
 		mv (get-lastdownload) .
 	} else {
