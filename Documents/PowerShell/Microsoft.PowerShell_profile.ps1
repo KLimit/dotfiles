@@ -7,6 +7,14 @@ $PSDefaultParameterValues['*:Encoding'] = "UTF8"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.UTF8Encoding]::new()
 
+set-psreadlineoption -colors @{
+	Operator = "Cyan"
+	Parameter = "Cyan"
+}
+#set-psreadlineoption -colors @{ "Selection" = "`e[7m" }
+#set-psreadlinekeyhandler -key Tab -function MenuComplete
+#carapace _carapace | out-string | invoke-expression
+
 # for programs that shipped with autocomplete scripts
 foreach ($autocomplete in $env:psmodulepath.split(';' ) | where-object {$_ -match 'autocomplete'}) {
 	foreach ($script in gci "$autocomplete\*.ps*") {
