@@ -105,7 +105,7 @@ ShowToolbar = false
 ShowFavorites = false
 ShowToc = false
 TocDy = 0
-SidebarDx = 221
+SidebarDx = 279
 ToolbarSize = 18
 TabWidth = 300
 TreeFontSize = 0
@@ -113,14 +113,14 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = true
 WindowState = 1
-WindowPos = 2193 227 1252 1793
+WindowPos = 161 171 1141 946
 UseTabs = false
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\hlimm\Downloads\2307171105_XKB-Connectivity-TGG-2B-P10-CLAD92H_C7464549 (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\2408.07541v1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -129,21 +129,435 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = G:\Shared drives\Engineering Electrical\PCB\motor\Generation 5.1.1\design\Project Outputs\920-108080-002 REV A_motor_controller_Schematic.PDF
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\PCU\Generation 5.2.2\design\Project Outputs\920-102412-001 REV G_PCU_Schematic.PDF
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\semikron-interface\Project.SKAI2HV.PLUS_System_System_Requirement_specifications_-_extract_duplicate_GDO.pdf
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.3.2\design\Project Outputs\920-106435-001 REV G_ABC_adapter_Schematic.PDF
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2.1\design\Project Outputs\920-111611-001 REV 4_battery_powertrain_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\JAES-paper-LBNL.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\070529radical_chic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\AMCU_Inverter Manual.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2.1\design\Project Outputs\890-111613-001 REV A_battery_powertrain_controller_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Chapter4.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\title.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Chapter1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DowdSeminar.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\riffmci.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\cab_controller\rev1\SRC-cab_controller-A.1\DrawingNumber_cab_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RHMails-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RHReply.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RHMails.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RHMails-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\830-109355-001 rev D-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Kurinto_UserGuide.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\typodermic-public-domain-2024-04.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\between-the-lines-v1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Sampler_TRom_Core.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Sampler_News_Core.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.5\design\Project Outputs\890-113067-001 REV 1_SPDU_HV_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Smart PDU 830-111760-001 REV B & 830-111760-002 REV C.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\830-111760-001 rev C.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.5\design\Project Outputs\920-113072-001 REV 1_SPDU_HV_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.5\design\HV PCB Schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\Smart PDU HV\Generation 1.5\design\HV PCB.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\WS2812.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\825-108921-001 rev A (routing).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2\design\Project Outputs\920-111611-001 REV 3_battery_powertrain_controller_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\cab_controller.PrjPcb And cab_controller.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\2045640.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\cga3e2x7r1h104k080aa-266291-24216208.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\PCU\Generation 5.2.1\design\Project Outputs\920-102412-001 REV F_PCU_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ENG_CD_640581_T6.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\830-109355-001 rev D-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-106628-001 rev A.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\65.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Program Files\LTC\LTspiceXVII\LTspiceHelp.chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-107849-001 rev B.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105932886-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105936018.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105956841.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\pp026-passive-probe-om.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\PCU\Generation 5.2\design\Project Outputs\920-102412-001 REV E_PCU_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\CCP_ICT_Probe_Catalog_EN_20221005-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
@@ -152,133 +566,709 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\840-113618-001 Rev1.pdf
+		FilePath = C:\Users\hlimm\Downloads\CCP_ICT_Probe_Catalog_EN_20221005.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\2307171105_XKB-Connectivity-TGG-2B-P10-CLAD92H_C7464549.pdf
+		FilePath = C:\Users\hlimm\Downloads\Semiconductor_Testing_Solutions_download_20220221.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\Delphi-Connection-Systems-3327469.pdf
+		FilePath = C:\Users\hlimm\Downloads\MMZ1608_Series_Standard_Kit.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\HAR4005.pdf
+		FilePath = C:\Users\hlimm\Downloads\TE_114017 X114019_F.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\HAR1081.pdf
+		FilePath = C:\Users\hlimm\Downloads\825-111604-004 REV B.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\HAR3418.pdf
+		FilePath = C:\Users\hlimm\hw-test-suite\test-suites\bpcu\boardlevel.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\ASM04300018.pdf
+		FilePath = C:\Users\hlimm\Downloads\PSU_programming_manual_EN_Rev1_7_220513-1.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\HAR2001.pdf
+		FilePath = C:\Users\hlimm\Downloads\830-109355-001 rev D.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\WDG1001.pdf
+		FilePath = C:\Users\hlimm\Downloads\Document-Export-Motiv_Power_Systems-ecr725attachments\920-114499-001 REV 1_PCU_Schematic.PDF
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\mirror\SWI1012.pdf
+		FilePath = G:\Shared drives\Reference Library\Specifications\SAE\J1772_201710.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\WAGO_772-262en_US.pdf
+		FilePath = C:\Users\hlimm\Downloads\MOTIV_CreateNewECR_WIRev2.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\AMPH-S-A0002320673-1.pdf
+		FilePath = C:\Users\hlimm\Downloads\D_SCS200_en.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\mil-dtl-5015-matrix-catalog.pdf
+		FilePath = C:\Users\hlimm\Downloads\wavesurfer-3000-om-1.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\emirror\VD1237 Installation Manual.pdf
+		FilePath = C:\Users\hlimm\Downloads\SCS200 Guided Tutorial Prelim 20240619 (1) (1).pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\kdc_nmg-2941152.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\NMG1212SC.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.2.1\design\Project Outputs\ABC_adapter_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.2.1\B99067-A 890-106431-001.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_test_aux_board\Generation 1.0\design\ABC-AUXILIARY-SKETCH.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\5992-3488.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\PO 019405.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\EVCC300_DS_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SL1550A EV - EVSE Charging Communication Interface Tester.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\flk-210646-en-FEV100-ds-w.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RK3588 Brief Datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\WEB2463963383.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Document-Export-Motiv_Power_Systems-2024-07-23\PCBU Quote - PCBA - 890-112442-001-Rev3 - TH230920-0922AS.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Document-Export-Motiv_Power_Systems-2024-07-23\CONFIRM-890-112442-001-Rev3-TH230920-0922.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\BPCU_tester\Generation 1.0\design\Project Outputs\920-113220-001 REV 1_BPCU_tester_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\LM2931-D.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\2401261512_HXY-MOSFET-HCJT1117B-3-3_C20611928.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\2307181754_HANSCHIP-semiconductor-LM1086IS-3-3RG_C5145331.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\oki-78sr-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cab-controller\S32K3xx.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cab-controller\S32K312EVB-Q172_PackRevA3_Schematic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cab-controller\S32K3XXRM.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\PAM8302A.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\openevse\OpenEVSE_PLUS-master\OpenEVSE_PLUS_v5.5\OpenEVSE_PLUS_v5.5.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\d3925_k4176_k5522_1_01_1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\d3925_k4176_k5522_1_01_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\78M12-STMicroelectronics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\0d7hy2a1itcuk3ag4238k4giqsfy.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ds17001.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\lmv358.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\openevse\OpenEVSE_PLUS-master\OpenEVSE_PLUS_v5.5\Advanced_2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\openevse\OpenEVSE_PLUS-master\OpenEVSE_PLUS_v5.5\OpenEVSE_v5.5.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105932886-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105932886.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105907598.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\io_dsub_brochure.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\io_d_sub_sd_hd_stamped_formed_rear_release.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\M020_MACH-D_RevA2-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\PDF_DS_09670094702_EN.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SDB-09BFFC-SL7001(D).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DCT-9XMD-KIT.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ENG_DS_1-1773963-5_AMPLIMITE_Cable_Conn_QRG_1018.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\M020_MACH-D_RevA2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ca-CCS-IND-industrial-d-sub-catalog.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ABC_adapter-Generation 1.3.3 release -- change pilot comparator to ~2.6 V for less systematic error.-(src,fab,asm)\ASM-ABC_adapter-STANDARD-A.1\920-106435-001 REV H_ABC_adapter_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\920-114499-001 REV 1_PCU_Schematic-1.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\890-114498-001 REV 1_PCU_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\A27_Kurland_Pea_85.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\bad-vs-revg.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\badvariants.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\how-to-program-samd-bootloaders.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\seven-segment.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105721418.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\P201100r00_drawing.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DS-BU-00249-@-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.3.3\Project Outputs\890-109230-002 REV C_ABC_adapter_Staking.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.3.3\Project Outputs\890-109230-002 REV C_ABC_adapter_Conformal Coating Masks.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DS-BU-00249-@.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\d5934_101.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\d2945_100.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\d2945_100-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ECR Procedure 940-112138-001 RevA-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ECR_ECO ProcessChart 910-105181-001-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ENG_SS_411-37041_B_SS_411-37041_B.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
@@ -287,74 +1277,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\INSTAX-TYAMP3-SWC_web.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\threads.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Documents\cabin\swbuck\door\9001795-02-02-24.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\umbrello.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Documents\cabin\swbuck\door\mechanism-em25-state-machine-flowchart-cycle-phases.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\USB3-16U1-Technical-Data-Sheet.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\USBG-20XU1-Technical-Data-Sheet.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\50-00961 (1).pdf
+		FilePath = C:\Users\hlimm\Documents\cabin\wiper\230-1825_pinout clarification-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -363,7 +1290,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\50-01008.pdf
+		FilePath = C:\Users\hlimm\Downloads\Anti-Harassment Policy and Acknowledgment - General.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -372,7 +1299,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\sd-lp-series (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\sei-rmcf_rmcp.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -381,7 +1308,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\T3400001 (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\comm-rota.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -390,7 +1317,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\hermetic-38999-series-ii-how-to-order.pdf
+		FilePath = C:\Users\hlimm\Downloads\SparkFun_QwiicBus_Endpoint-Schematic.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -399,7 +1326,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\insert-arrangements.pdf
+		FilePath = C:\Users\hlimm\Downloads\PCA9615.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -408,7 +1335,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\ENG_DS_1-1773922-9_deutsch38999_SeriesIII_0118.pdf
+		FilePath = C:\Users\hlimm\Downloads\resume-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -417,7 +1344,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\d38999-contact-arrangements.pdf
+		FilePath = C:\Users\hlimm\Downloads\DK_INVOICE_105561027.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -426,7 +1353,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\sd-lp-series.pdf
+		FilePath = C:\Users\hlimm\Downloads\ina139.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -435,7 +1362,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\T3400001.pdf
+		FilePath = C:\Users\hlimm\Downloads\d1825-4897-4899-6545_102_5-3.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -444,7 +1371,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\5774d4e88ead4 (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\P201300rA_drawing-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -453,25 +1380,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\22010(12)311-01.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\22010(12)515-01 (1).pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\50-00954.pdf
+		FilePath = C:\Users\hlimm\Downloads\d3364_1_01-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -480,25 +1389,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\50-00961.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\mil-dtl-5015-crimp-connectors-catalog.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\product-CAT-AM71-C83998O.datasheet.pdf
+		FilePath = C:\Users\hlimm\Downloads\d3364_1_01.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -507,7 +1398,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\mil-5015-front-release-contacts.pdf
+		FilePath = C:\Users\hlimm\Downloads\d73092_001.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -516,7 +1407,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\Amphenol_12417_97B4106F10SL3SM01-1275290.pdf
+		FilePath = C:\Users\hlimm\Downloads\Banana_Plug_Catalog.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -525,7 +1416,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\5015 - AC Threaded.pdf
+		FilePath = C:\Users\hlimm\Downloads\73093.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -534,7 +1425,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\ADS_1003_CA3106E28-22P15.pdf
+		FilePath = C:\Users\hlimm\Downloads\DS_1768_Catalog.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -543,7 +1434,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\22010(12)515-01.pdf
+		FilePath = C:\Users\hlimm\Downloads\P201300rA_drawing.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -552,7 +1443,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\5774d4e88ead4.pdf
+		FilePath = C:\Users\hlimm\Downloads\P201500rA_drawing-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -561,7 +1452,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\ENG_DS_1-1773906-1_Intercontec_615_915_Catalog_0819.pdf
+		FilePath = C:\Users\hlimm\Downloads\P201500rA_drawing.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -570,7 +1461,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\M16-Connectors-Data-Sheet (2).pdf
+		FilePath = C:\Users\hlimm\Downloads\DS-BU-3261410-@.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -579,7 +1470,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\M16-Connectors-Data-Sheet (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\d6721_001.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -588,7 +1479,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\M16-Connectors-Data-Sheet.pdf
+		FilePath = C:\Users\hlimm\Downloads\d1825-4897-4899-6545_102_5-2.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -597,16 +1488,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\cabin\wiper\3121402R0.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\12162269_DIST_CUS01_Sheet_1.pdf
+		FilePath = C:\Users\hlimm\Downloads\d1825-4897-4899-6545_102_5-1.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -615,7 +1497,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\12010300-191486.pdf
+		FilePath = C:\Users\hlimm\Downloads\d_MDP-4892-4898_102_7.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -624,7 +1506,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\0900766b814c67ed.pdf
+		FilePath = C:\Users\hlimm\Documents\picodev\pico-datasheet.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -633,7 +1515,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\A700000006694115.pdf
+		FilePath = C:\Users\hlimm\Downloads\d1325-5230-5406-6546_103_10.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -642,7 +1524,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\470-105619-001-22-16AWG RING TERMINAL.pdf
+		FilePath = C:\Users\hlimm\Downloads\d1825-4897-4899-6545_102_5.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -651,25 +1533,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\840-111725-002 rev B.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\830-103592-003 rev A.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\830-103592-003 rev A (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\dcmx27_no-3.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -678,16 +1542,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\840-113618-001 1-29 (1).PDF
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\PC792A (2).pdf
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET-5.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -696,7 +1551,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\HFV15.pdf
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET-4.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -705,7 +1560,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\ISO-7588-1-1998.pdf
+		FilePath = C:\Users\hlimm\Downloads\sierra 24 48v assembly instructions.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -714,7 +1569,196 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\PC792A (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\dcmx27_no-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET-3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\demx0006-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0434Y3_DATA_SHEET.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-107321-XXX rev A-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ECR Procedure 940-112138-001 RevA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ECR_ECO ProcessChart 910-105181-001.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-107321-XXX rev A.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3DataSheet-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\masterflux-catalog_ap_en-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\dcmx27_no-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\sierra 12 24v assembly instructions.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\flyer_sierra_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cabin\emirror\VD-1237 Power Cable Model redline.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.3\design\Project Outputs\920-106435-001 REV E_ABC_adapter_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\lm5060-q1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\upload-moderation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-102553-001 RevE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-102554-001 REV B-1.PDF
 		Favorites [
 		]
 		IsPinned = false
@@ -728,11 +1772,983 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\pdfmanagement\ALPINE08-2750Y3_Data_Sheet_Rev_3.pdf
+		FilePath = C:\Users\hlimm\Downloads\pcbnew.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Total_Ranking-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\COMPETITION_SCHEDULE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Total_Ranking.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Reference Library\Specifications\SAE\J1772_201210 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\stx882.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Report-A-Detailed-Analysis-Of-The-Gafgyt-Malware-Targeting-IoT-Devices.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MB1JJN0800.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Pico-R3-A4-Pinout.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\TLP3544_datasheet_en_20200311.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\tlv1701 (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\dcmx27_no.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SIERRA06-0982Y3_DATA_SHEET.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\SAE J1766.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Draw-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MPP-Brochure-Rev2-Jan2021.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\270-107494-001RevA-3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\HM8118_UserManual_de_en_06.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\270-107494-001RevA-2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\kdc-nmk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\025F039x-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DGMX0012-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\demx0006.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\795405067.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-102806-1.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\270-107494-001RevA-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\kdc-mev-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\MEV1S1205DC-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\APT11N80BC3.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-113622-001 Rev1 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\dc-powered-variable-speed-compressors_in_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\masterflux-catalog_ap_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\DGMX0095_REL_DWG-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\737-SCHLEICH_MTC2_EN_0915.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\gen3_interposer_clkreq.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\GL30004000_Manual_EN.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Simcenter SCADAS Brochure.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\mux\Generation 1.0\design\Project Outputs\920-113158-001 REV 1_mux_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\semikron-interface\Project.SKAI2HV.PLUS_System_System_Requirement_specifications_-_extract_duplicate_GDO.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Barnes  - Physics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ACDBA340-HF RevA772473.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\idsd.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\gdm-9060-instek\GDM-906X_User_Manual_EN_Ver_G_20220613.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\nasa-std-87394a_w_change_4_0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\GDM-8261A_User_Manual_EN_Ver_F_20211210.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\GenRad_Experimenter_July_1952.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-113620-001 Rev1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\4061058R0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\4061024R3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Program Files\AutoHotkey\v2\AutoHotkey.chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\1KW-61317-2_DAQ6510_Data_Acquisition_Logging_Multimeter_Datasheet_080223.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\1KW-61232-0_Series_3700A_System_Switch_Multimeter_Datasheet_120123.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\7053_901_01C.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\bav100.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Draw.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\cab_controller\rev1\schematic-only-populated-components.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Mathematical Foundations for Linear Circuits and Systems in Engineering - 2016 - Shynk - Appendix B  Inverse Laplace.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\LapInv1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\laplace1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\l20-235.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\RedBook.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\21882d.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\lm324.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\lm741.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\en.CD00000840 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\min-chang_resume-2021.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\portfolio_casttv-dotcom.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\1464052.1464112.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\EL-Heater Relay Kit Installation (Gen 6)-200524-214046.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cabin\emirror\VD-1237 Power Cable-Aotop 16-4-2024-redline.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cabin\emirror\VD-1237 Power Cable Model (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\PlexUX-Classic Nomenclature Difference.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\UX_BasicLaunchPageRef.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cabin\wiper\3121402R0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987651-8272 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-6081 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-6662 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-3661.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-3771 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\A700000008774437.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\2785334.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-6081.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987651-8272.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-3771.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\987652-6662.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\hlimm2-ltp-archive\hlimm-ltp\hw-testing\Datasheets\wavesurfer\wavesurfer4000hd-om-eng.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\389 Switch_Standard.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\hlimm2-ltp-archive\hlimm-ltp\hw-testing\Datasheets\wavesurfer\wavesurfer4000hd-getting-started-guide.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\TLP781_datasheet_en_20080117.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\ENG_DS_1773464-1_QRG_PIDG_1902 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\AppData\Local\Temp\7zO891ED41A\4 channel relay.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\tlv1701 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\101_____umeng0200.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\tlv1701.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\840-113620-001 preliminary for EE review rev3 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\mux_hv\Generation 1.0\design\Project Outputs\920-112861-001 REV 1_high_voltage_mux_Schematic.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\pdfmanagement\FN-BC04 MP3 Sound Module with 10W Amplifier User's Manual V2.1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\6000031_6116_ENG_A_W.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\getting-started-with-pico (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\openocd.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\Document-Export-Motiv_Power_Systems-2024-05-06\Confirmation PO 020266.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\A700000006694115 (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\230_2301001R6.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\cabin\emirror\VD1237 Installation Manual.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\705-0023 Instructions, Installing Commercial Duty Wiper Arms.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2\design\Project Outputs\890-111613-001 REV 3_battery_powertrain_controller_Silkscreen.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\KSB0405HBF0D.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Downloads\en.CD00000840.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\hlimm\Documents\datasheets\MPC5674F.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -750,7 +2766,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\pdfmanagement\Sexual-Harassment-Fact-Sheet_ENG.pdf
+		FilePath = C:\Users\hlimm\Documents\cab-controller\cc-silkscreen-swdrework.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -759,16 +2775,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\pdfmanagement\sei-rpc.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\840-113618-001 1-29.PDF
+		FilePath = C:\Users\hlimm\Documents\cab-controller\cc-silkscreen.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -777,16 +2784,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\PC792A.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\at-where-form-meets-function-5-1773452-5.pdf
+		FilePath = C:\Users\hlimm\Documents\cabin\door\9001795 - 06-03-24 (1).pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -795,7 +2793,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\info_iec60947-1{ed6.0}b.pdf
+		FilePath = C:\Users\hlimm\Documents\cabin\door\9001795 - rev0.1 - 23-03-24 (002).pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -804,7 +2802,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\weidmuller-crimping-tools-whitepaper.pdf
+		FilePath = C:\Users\hlimm\Documents\cabin\door\9001795-02-02-24.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -813,7 +2811,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\cablecraft_crimp_guide.pdf
+		FilePath = C:\Users\hlimm\Documents\cabin\door\mechanism-em25-state-machine-flowchart-cycle-phases.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -822,7 +2820,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\qual_crimp.pdf
+		FilePath = C:\Users\Public\Documents\Altium\cab_controller\cab_controller.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -831,7 +2829,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\1-1773953-1-terminals-and-splices-whitepaper.pdf
+		FilePath = C:\Users\hlimm\Documents\cab-controller\lightbar.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -840,7 +2838,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\sei-rpc (2).pdf
+		FilePath = C:\Users\Public\Documents\Altium\cab_controller\cab_controller_silkscreen.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -849,7 +2847,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\sei-csrt (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\ENG_DS_1-1773950-7_A.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -858,7 +2856,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\pyu-sr_20105_rohs_l.pdf
+		FilePath = C:\Users\hlimm\Downloads\SC1A_User_Manual_EN_Ver_01_20210423.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -867,7 +2865,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\maui-remote-control-and-automation-manual.pdf
+		FilePath = C:\Users\hlimm\Downloads\OM_GDM-8261A_default_V1_E (1).pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -876,7 +2874,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\tds031000-2000_programming_manual.pdf
+		FilePath = C:\Users\hlimm\Downloads\OM_GDM-8261A_default_V1_E.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -885,25 +2883,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Documents\hlimm2-ltp-archive\hlimm-ltp\hw-testing\Datasheets\BPCU\920-xxxxxx-001 REV 1_battery_powertrain_controller_Schematic.PDF
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Documents\picodev\raspberry-pi-pico-python-sdk.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\Pico-R3-A4-Pinout.pdf
+		FilePath = C:\Users\hlimm\Downloads\csound-flossmanual-8.0.0.epub
 		Favorites [
 		]
 		IsPinned = false
@@ -912,25 +2892,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2.1\design\Project Outputs\920-111611-001 REV 4_battery_powertrain_controller_Schematic.PDF
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\lm5060-q1.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\wavesurfer4000hd-om-eng.pdf
+		FilePath = C:\Users\hlimm\Downloads\helm_manual.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -939,7 +2901,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\MS3520010 (1).pdf
+		FilePath = C:\Users\hlimm\Downloads\ESDALC6V1-5P6.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -948,43 +2910,7 @@ FileStates [
 		UseDefaultState = true
 	]
 	[
-		FilePath = C:\Users\hlimm\Downloads\SL321R036.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\TQM033NB04CR_B2301.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\f18_series_power_modules_ssr_datasheet-2933786.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Downloads\JP-301 CM10-30.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\hlimm\Documents\picodev\pico-datasheet.pdf
+		FilePath = C:\Users\hlimm\Downloads\MC74VHCT50ADR2G.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -1007,8 +2933,59 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = G:\Shared drives\Engineering Electrical\PCB\battery_powertrain_controller\Generation 1.2.1\design\Project Outputs\920-111611-001 REV 4_battery_powertrain_controller_Schematic.PDF
+				DisplayMode = single page
+				PageNo = 15
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = 146 171 1141 946
+		SidebarDx = 279
+	]
+	[
+		TabStates [
+			[
+				FilePath = G:\Shared drives\Engineering Electrical\PCB\ABC_adapter\Generation 1.3.2\design\Project Outputs\920-106435-001 REV G_ABC_adapter_Schematic.PDF
+				DisplayMode = single page
+				PageNo = 5
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = 161 171 1141 946
+		SidebarDx = 279
+	]
+	[
+		TabStates [
+			[
+				FilePath = G:\Shared drives\Engineering Electrical\PCB\PCU\Generation 5.2.2\design\Project Outputs\920-102412-001 REV G_PCU_Schematic.PDF
+				DisplayMode = single page
+				PageNo = 25
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = 161 171 1141 946
+		SidebarDx = 279
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 683
+OpenCountWeek = 712
 
 # Settings below are not recognized by the current version
