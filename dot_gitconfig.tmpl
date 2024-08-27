@@ -36,6 +36,7 @@
 	hloneline = tformat:%C(auto)%h %C(magenta)%cd %C(blue)%>(10,trunc)%aL %C(auto)%<|(80,trunc)%s%+D
 [log]
 	date = format:%y%m%d %R
+	date = format:%y%m%d
 	decorate = short
 [format]
 	pretty = hloneline
@@ -57,6 +58,7 @@
 	mergetry = checkout -b mergetry
 	diffstat = diff --stat
 	addp = add -p
+	newbranch = checkout -b
 [branch]
 	sort = -committerdate
 [color "diff"]
