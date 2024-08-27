@@ -253,7 +253,7 @@
     "alwaysShowTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
     "experimental.rendering.forceFullRepaint": false,
     "experimental.rendering.software": false,
     "initialCols": 160,
@@ -311,6 +311,12 @@
                 "hidden": false,
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell 7 Preview",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
