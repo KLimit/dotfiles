@@ -43,7 +43,7 @@ Annotations [
 
 RememberOpenedFiles = true
 RememberStatePerDocument = false
-RestoreSession = true
+RestoreSession = false
 UiLanguage = en
 EnableTeXEnhancements = false
 DefaultDisplayMode = single page
