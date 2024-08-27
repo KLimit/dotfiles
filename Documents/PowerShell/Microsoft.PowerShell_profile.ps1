@@ -69,10 +69,9 @@ function ls {
 	ls.exe --color=auto --group-directories-first --width=80 $args
 }
 # find a better way to do this
-if (where.exe "eza") {
-	function ls {
-		eza.exe --width=80 --group-directories-first --git $args
-	}
+function ls {
+	# eza.exe --width=80 --group-directories-first --git $args
+	eza.exe --group-directories-first --git $args
 }
 function rustapps {
 	ls.exe -l -rt --no-group "$home/.cargo/bin/*.exe"
