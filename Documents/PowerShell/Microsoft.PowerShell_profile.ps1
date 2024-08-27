@@ -152,19 +152,21 @@ function overhere {
 function set-env {
 	# todo use a dict
 	param($language)
-	if ($language -eq 'c') {
-		& append-userpath -tmp "C:/mingw64/bin"
-	} elseif ($language -eq 'pascal') {
-		& append-userpath -tmp "C:\FPC\3.2.2\bin\i386-win32\"
-	} elseif ($language -eq 'msbuild') {
-		& append-userpath -tmp "C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin\"
-	} elseif ($language -eq 'vcvars') {
-		write-host "the vcvars scripts will only work in a cmd shell"
-		write-host "Remember, you can use vcvarsall (/help for options)."
-	} elseif ($language -eq 'zig') {
-		& append-userpath -tmp "C:\zig\zig"
-	} else {
-		write-host "Currently available dev environments are 'c', 'pascal', 'msbuild', 'vcvars', 'zig'"
+	Switch ($language) {
+		'c' { $toprepend = "C:\llvm-mingw-20240308-msvcrt-x86_64\bin" }
+		'pascal' { $toprepend = "C:\FPC\3.2.2\bin\i386-win32\" }
+		'msbuild' { $toprepend = "C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin\" }
+		'vcvars' {
+			write-host "the vcvars scripts will only work in a cmd shell"
+			write-host "Remember, you can use vcvarsall (/help for options)."
+		}
+		'zig' { $toprepend = "C:\zig\zig" }
+		default {
+			write-host "Currently available dev environments are 'c', 'pascal', 'msbuild', 'vcvars', 'zig'"
+		}
+	}
+	if ($toprepend) {
+		& append-userpath -tmp -prepend $toprepend
 	}
 }
 function start-pythonvenv {
