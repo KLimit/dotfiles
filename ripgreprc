@@ -5,3 +5,5 @@
 --max-columns-preview
 --auto-hybrid-regex
 --glob-case-insensitive
+--type-add=pio:*.pio
+--type-add=bat:*.bat
