@@ -1,6 +1,4 @@
 # Import-Module Terminal-Icons
-import-module posh-git
-
 # import-module get-choice
 
 $PSDefaultParameterValues['*:Encoding'] = "UTF8"
