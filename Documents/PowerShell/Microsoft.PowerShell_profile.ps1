@@ -71,7 +71,7 @@ function ls {
 # find a better way to do this
 function ls {
 	# eza.exe --width=80 --group-directories-first --git $args
-	eza.exe --group-directories-first --git $args
+	eza.exe --group-directories-first --git -a $args
 }
 function rustapps {
 	ls.exe -l -rt --no-group "$home/.cargo/bin/*.exe"
@@ -136,15 +136,22 @@ function add-userenv {
 	}
 }
 function get-lastdownload {
-	return (gci ~/downloads | sort-object -descending -property LastWriteTime)[0]
+	param($offset=0)
+	return (gci ~/downloads | sort-object -descending -property LastWriteTime)[$offset]
 }
 function overhere {
-	$tomove = (get-lastdownload)
-	$question = "Move $tomove into current directory?"
+	param($count=1)
+	$tomove = (0..($count-1) | foreach {get-lastdownload $_})
+	if ($tomove -is [system.io.fileinfo]) {
+		$question = "Move $tomove into current directory?"
+	} else {
+		$question = "Move these files into current directory?"
+		echo $tomove
+	}
 	get-confirmation 'overhere' "$question"
 	if ($?) {
-		write-host "moving $tomove"
-		mv (get-lastdownload) .
+		write-host "moving"
+		move-item $tomove .
 	} else {
 		write-host "cancelled"
 	}
@@ -195,6 +202,16 @@ function ls-extensions {
 function nvim-plugin {
 	param($query)
 	curl "https://nvim.sh/s/$query"
+}
+
+function add-extension {
+	param ($file, $extension)
+	move-item $file "$file.$extension"
+}
+
+function arduino-cli {
+	. arduino-cli.exe --config-file ~/.arduinoIDE/arduino-cli.yaml $args
+
 }
 # catsay "Hello Henry!"
 # 1/16 chance to get uwuified jargon entry
