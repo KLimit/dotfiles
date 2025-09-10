@@ -1,0 +1,27 @@
+initialZoom page
+initialDisplayMode single
+initialSidebarState no
+
+bind j any pageDown
+bind k any pageUp
+bind y any scrollUp(16)
+bind e any scrollDown(16)
+bind h any scrollLeft(16)
+bind l any scrollRight(16)
+bind u any prevPage
+bind d any nextPage
+bind n any findNext
+bind / any find
+bind [ any rotateCCW
+bind ] any rotateCW
+
+
+# swap default mouse scroll/zoom binds
+# unbind mousePress4 any
+# unbind mousePress5 any
+# unbind ctrl-mousePress4 any
+# unbind ctrl-mousePress5 any
+# bind mousePress4 any zoomIn
+# bind mousePress5 any zoomOut
+# bind ctrl-mousePress4 any scrollUpPrevPage(16)
+# bind ctrl-mousePress5 any scrollDownPrevPage(16)
