@@ -1,6 +1,4 @@
 # Import-Module Terminal-Icons
-import-module posh-git
-
 # import-module get-choice
 
 $PSDefaultParameterValues['*:Encoding'] = "UTF8"
@@ -52,19 +50,25 @@ $NVIM = "$HOME\appdata\local\nvim"
 $WTERM = "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 # powershell likes to default alias some stuff for which I have better progs
-if (test-path Alias:mkdir) {Remove-item Alias:mkdir -force}
-if (test-path Alias:sort) {Remove-item Alias:sort -force}
-if (test-path Alias:diff) {Remove-item Alias:diff -Force}
-if (test-path Alias:curl) {Remove-item Alias:curl -Force}
-# if (test-path Alias:cat) {remove-item alias:cat -force}
+$noclobbers = @(
+	"mkdir"
+	"sort"
+	"diff"
+	"curl"
+	"pwd"
+	"sl"
+	"ls"
+)
+foreach ($alias in $noclobbers) {
+	$alias = "Alias:$alias"
+	if (test-path $alias) {remove-item -force $alias}
+}
 set-alias -name vim -value nvim
 Set-Alias -Name which -Value 'where.exe'
 set-alias -name vd -value visidata
 set-alias -name sponge -value rw
 set-alias -name mkdir -value 'mkdir.exe'
 set-alias -name bat -value 'less.exe'
-if (test-path Alias:sl) {Remove-item Alias:sl -force}
-if (test-path Alias:ls) {Remove-item Alias:ls -force}
 function ls {
 	ls.exe --color=auto --group-directories-first --width=80 $args
 }
