@@ -178,16 +178,16 @@ function start-pythonvenv {
 		echo "Too many activate.ps1 scripts found"
 	}
 }
-function hackitty {
-	param ([switch]$uwu)
-	$jargon = (jargon)
-	if ($uwu) {
-		$jargon = (echo $jargon | uwuify)
-	}
-	
-	# echo $jargon | fold -s -w65 | catsay
-	echo $jargon | prose -f -w65 2> $null | catsay
-}
+#function hackitty {
+#	param ([switch]$uwu)
+#	$jargon = (jargon)
+#	if ($uwu) {
+#		$jargon = (echo $jargon | uwuify)
+#	}
+#
+#	# echo $jargon | fold -s -w65 | catsay
+#	echo $jargon | prose -f -w65 2> $null | catsay
+#}
 function ls-extensions {
 	ls | rg \.\w*$ -o | py -3 -c "import sys `nfor line in sys.stdin: print(line.lower())" | sed /^\s*$/d | huniq -c | sort
 
@@ -198,10 +198,10 @@ function nvim-plugin {
 }
 # catsay "Hello Henry!"
 # 1/16 chance to get uwuified jargon entry
-$rand = (get-random -maximum 16)
-if ($rand -eq 1) {
-	hackitty -uwu
-} else {
-	hackitty
-}
-$runthermaltest = "py -2 .\bpcu_thermal.py  -n 1 .\bpcu-thermal-testlist.json .\bpcu-testdef-config.json"
+#$rand = (get-random -maximum 16)
+#if ($rand -eq 1) {
+#	hackitty -uwu
+#} else {
+#	hackitty
+#}
+#$runthermaltest = "py -2 .\bpcu_thermal.py  -n 1 .\bpcu-thermal-testlist.json .\bpcu-testdef-config.json"
